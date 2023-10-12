@@ -160,12 +160,12 @@ int InnStr(LinkString*& s, int i, LinkString *t) {
     while (k < i && p) {
         k++;
         p = p->next;
-    }
+    } 
     if (p == NULL)
         return 0;
     q = t->next;
     while (q) {
-        r = (LinkString*)malloc(sizeof(LinkString);
+        r = (LinkString*)malloc(sizeof(LinkString));
         r->data = q->data;
         r->next = p->next;
         p->next = r;

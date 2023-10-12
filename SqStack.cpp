@@ -37,7 +37,7 @@ int pop(SqStack*& st, ElemType &x) {
 		st->top--;
 		return 1;
 	}
-}
+} 
 //È¡Õ»¶¥ÔªËØ
 int GetTop(SqStack* st, ElemType& x) {
 	if (st->top == -1)

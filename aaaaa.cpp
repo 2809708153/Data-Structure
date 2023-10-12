@@ -4,7 +4,7 @@
 //#include "DLinkNode.cpp"
 int main() {
 	system("title SLinkNode");
-	int i;
+	int i; 
 	ElemType e;
 	LinkNode* L;
 	InitList(L);

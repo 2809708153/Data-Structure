@@ -3,7 +3,7 @@
 using namespace std;
 //链表数据类型
 typedef int ElemType;
-
+ 
 /*int main() {
 	SLinkNode *x;
 	InitList(x);

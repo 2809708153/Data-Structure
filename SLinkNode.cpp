@@ -15,7 +15,7 @@ typedef struct node {
 void InitList(LinkNode *& L) {
 	L = (LinkNode*)malloc(sizeof(LinkNode));
 	L->next = NULL;
-}
+} 
 //Ïú»Ù
 void DestroyList(LinkNode*& L) {
 	LinkNode* pre = L, * p = pre->next;

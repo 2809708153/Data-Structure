@@ -3,7 +3,7 @@
 using namespace std;
 //链队数据类型
 typedef int ElemType;
-
+ 
 //定义队链表数据结点
 typedef struct QNode {
 	ElemType data;

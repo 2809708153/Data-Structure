@@ -4,7 +4,7 @@ using namespace std;
 
 #define MaxSize 20
 typedef int ElemType;
-
+ 
 typedef struct {
 	ElemType data[MaxSize];
 	int front, rear;   //队首与队尾

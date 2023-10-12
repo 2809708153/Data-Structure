@@ -14,7 +14,7 @@ typedef struct node {
 //初始化栈链表
 void InitStack(LinkStack*& ls) {
 	ls = NULL;
-}
+} 
 //销毁栈链表
 void DestroyList(LinkStack*& ls) {
 	LinkStack* pre = ls, * p;

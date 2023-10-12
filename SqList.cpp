@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+ 
 #define MaxSize 100
 typedef int ElemType;
 

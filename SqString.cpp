@@ -8,7 +8,7 @@ typedef struct {
     char data[MaxSize];
     int length;
 }SqString;
-
+ 
 //´®¸³Öµ
 void Assign(SqString& s, char* str) {
     int i;

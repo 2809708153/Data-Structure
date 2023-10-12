@@ -8,7 +8,7 @@ typedef int ElemType;    //元素类型
 #define LIST_INIT_SIZE 100 
 #define LISTINCREMENT 10 
 typedef struct {
-	ElemType* elem;
+	ElemType* elem; 
 	int length;
 	int listsize;
 }SqList;    //结点类型 
