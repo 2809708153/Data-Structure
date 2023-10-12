@@ -165,7 +165,7 @@ int InnStr(LinkString*& s, int i, LinkString *t) {
         return 0;
     q = t->next;
     while (q) {
-        r = (LinkString*)malloc(sizeof(LinkString);
+        r = (LinkString*)malloc(sizeof(LinkString));
         r->data = q->data;
         r->next = p->next;
         p->next = r;
