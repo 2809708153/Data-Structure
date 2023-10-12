@@ -51,5 +51,11 @@
     <ClCompile Include="LinkQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SqString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
