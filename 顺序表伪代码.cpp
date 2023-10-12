@@ -10,7 +10,7 @@ typedef int ElemType;    //元素类型
 typedef struct {
 	ElemType* elem; 
 	int length;
-	int listsize;
+	int listsize; 
 }SqList;    //结点类型 
 //2、 相关函数操作的伪码如下：
 Status InitList(SqList* L) {
